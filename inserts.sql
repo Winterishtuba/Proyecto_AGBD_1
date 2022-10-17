@@ -1,0 +1,21 @@
+INSERT INTO sucursal VALUES ('CABA-01', 'C.A.B.A.',  'C1184', 'Felipe Vallese 870', '+54 11 4589-6678');
+INSERT INTO sucursal VALUES ('CABA-02', 'C.A.B.A.',  'C1026', 'Nogoya 1054', '+54 11 8928-0195');
+INSERT INTO sucursal VALUES ('CABA-03', 'C.A.B.A.',  'B1752', 'Emilio mitre 1853', '+54 11 4902-7812');
+INSERT INTO sucursal VALUES ('CABA-04', 'C.A.B.A.',  'C1440', 'Eva peron 1954', '+54 11 9428-6905');
+INSERT INTO sucursal VALUES ('CABA-05', 'C.A.B.A.',  'B1430', 'Av Gral Paz 1536', '+54 11 7612-8954');
+INSERT INTO sucursal VALUES ('COR-01', 'Cordoba',  'B5000', 'Blvr. Chacabuco 472', '+54 351 4589-6678');
+INSERT INTO sucursal VALUES ('USH-01', 'Ushuaia',  'V9410', 'Gdor. Deloqui 1163', '+54 2901 8928-0195');
+INSERT INTO sucursal VALUES ('SSJ-01', 'San Salvador de Jujuy',  'Y4600', 'Gral. San Martín 1272', '+54 308 4902-7812');
+INSERT INTO sucursal VALUES ('MEN-01', 'Mendoza',  'M5500', 'Granaderos 2165', '+54 261 9428-6905');
+INSERT INTO sucursal VALUES ('ROS-01', 'Rosario.',  'S2000', 'Derqui 5957', '+54 341 7612-8954');
+
+INSERT INTO deposito VALUES ('D-CABA-01', 'CABA-01', 'Felipe Vallese 872', '+54 11 4589-6679');
+INSERT INTO deposito VALUES ('D-CABA-02', 'CABA-02', 'Nogoya 1054', '+54 11 8928-0196');
+INSERT INTO deposito VALUES ('D-CABA-03', 'CABA-03', 'Emilio mitre 1853', '+54 11 4902-7813');
+INSERT INTO deposito VALUES ('D-CABA-04', 'CABA-04', 'Eva peron 1954', '+54 11 9428-6906');
+INSERT INTO deposito VALUES ('D-CABA-05', 'CABA-05', 'Av Gral Paz 1536', '+54 11 7612-8955');
+INSERT INTO deposito VALUES ('D-COR-01', 'COR-01', 'Blvr. Chacabuco 472', '+54 351 4589-6679');
+INSERT INTO deposito VALUES ('D-USH-01', 'USH-01', 'Gdor. Deloqui 1163', '+54 2901 8928-0196');
+INSERT INTO deposito VALUES ('D-SSJ-01', 'SSJ-01', 'Gral. San Martín 1272', '+54 308 4902-7813');
+INSERT INTO deposito VALUES ('D-MEN-01', 'MEN-01', 'Granaderos 2165', '+54 261 9428-6906');
+INSERT INTO deposito VALUES ('D-ROS-01', 'ROS-01', 'Derqui 5957', '+54 341 7612-8955');
