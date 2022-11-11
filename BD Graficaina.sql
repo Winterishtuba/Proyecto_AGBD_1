@@ -54,19 +54,19 @@ CREATE TABLE pedido (
     fecha_pedido DATE NOT NULL,
     fecha_entrega DATE,
     PRIMARY KEY (id_pedido),
-    FOREIGN KEY (id_persona) REFERENCES cliente (id_persona)
+    FOREIGN KEY (id_persona) REFERENCES persona (id_persona)
 );
 
 CREATE TABLE pago (
     id_pago INT NOT NULL AUTO_INCREMENT,
     id_pedido INT NOT NULL,
-    id_cliente INT NOT NULL,
+    id_persona INT NOT NULL,
     suma FLOAT(10, 2) NOT NULL,
     metodo VARCHAR(30) NOT NULL,
     fecha_pago DATE NOT NULL,
     PRIMARY KEY (id_pago),
     FOREIGN KEY (id_pedido) REFERENCES pedido (id_pedido),
-    FOREIGN KEY (id_cliente) REFERENCES cliente (id_cliente)
+    FOREIGN KEY (id_persona) REFERENCES persona (id_persona)
 );
 
 CREATE TABLE proveedor (
