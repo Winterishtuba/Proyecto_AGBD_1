@@ -22,7 +22,6 @@ INSERT INTO deposito VALUES ('D-ROS-01', 'ROS-01', 'Derqui 5957', '+54 341 7612-
 
 INSERT INTO persona VALUES ('', 'Carlos', 'Menem', '90', '30241245', '1164893822','Balcarce 50', 'CarlosSaulMenemFerrari@gmail.com');
 INSERT INTO persona VALUES ('', 'Mauricio', 'Macri','63' ,'38898345', '1164884522','Av. Maipú 2100', 'MacriMaurigato@gmail.com');
-
 INSERT INTO persona VALUES ('', 'Arturo', 'Mateu', '54', '34312678', '+54 11 3782-5490','Av. independecia 1507', 'Arturmateu@gmail.com');
 INSERT INTO persona VALUES ('', 'Jairo', 'Lloris','34' ,'32548129', '+54 11 1290-4378','Av. La Plata 7284', 'Jaillora@gmail.com');
 INSERT INTO persona VALUES ('', 'Hugo', 'Sobrino', '61', '24381923', '+54 11 3892-1298','Jose Bonifacio 4542', 'Hugosobri@gmail.com');
@@ -33,7 +32,6 @@ INSERT INTO persona VALUES ('', 'Myriam', 'Murillo', '84', '28547812', '+54 11 0
 INSERT INTO persona VALUES ('', 'Jamal', 'Ubeda','72' ,'23764981', '+54 11 8921-7632','Av Juan Bautista Alberdi 2617', 'Jamalubeda@gmail.com');
 INSERT INTO persona VALUES ('', 'Alex', 'Gonzales', '81', '23918965', '+54 11 3289-1923','Fonrouge 2315', 'Alexgonza@gmail.com');
 INSERT INTO persona VALUES ('', 'Khadija', 'Camara','75' ,'23847194', '+54 11 0291-7823','Av Rivadavia 8219', 'Khadicama@gmail.com');
-
 INSERT INTO persona VALUES ('', 'Marcela', 'Brito', '41', '34981765', '+54 11 8921-2378','Pola 389', 'Marcelabri@gmail.com');
 INSERT INTO persona VALUES ('', 'Alexis', 'Cañadas','49' ,'31467891', '+54 11 9218-2398','Av Escalada 1245', 'Alexiscaña@gmail.com');
 INSERT INTO persona VALUES ('', 'Joan', 'Portela', '29', '23857910', '+54 11 3278-1278','Av Eva Peron 231', 'Joanpuerta@gmail.com');
@@ -44,7 +42,6 @@ INSERT INTO persona VALUES ('', 'Irati', 'Fidalgo', '24', '28174895', '+54 11 23
 INSERT INTO persona VALUES ('', 'Naroa', 'Talavera','62' ,'30982716', '+54 11 2198-2389','Camacua 4125', 'Naroatala@gmail.com');
 INSERT INTO persona VALUES ('', 'Alberto', 'Gago', '31', '39817298', '+54 11 9128-2398','Av Carabobo 8291', 'Albertogagoneta@gmail.com');
 INSERT INTO persona VALUES ('', 'Sabrina', 'Farre','42' ,'30928184', '+54 11 9281-3289','Av Rivadavia 4152', 'Sabriferrerorochet@gmail.com');
-
 INSERT INTO persona VALUES ('', 'Jacinta', 'Ares', '32', '30982761', '+54 11 2189-2389','Av Directorio 8092', 'Jacintares@gmail.com');
 INSERT INTO persona VALUES ('', 'Fidel', 'Ubeda','12' ,'30918273', '+54 11 9012-2309','Av Perito Moreno 5125', 'Fideluba@gmail.com');
 INSERT INTO persona VALUES ('', 'Francisco', 'Clemente', '69', '31874627', '+54 11 1209-3921','Av Lacarra 8729', 'Francisclemencia@gmail.com');
@@ -55,7 +52,6 @@ INSERT INTO persona VALUES ('', 'Noe', 'Portillo', '19', '38172847', '+54 11 291
 INSERT INTO persona VALUES ('', 'Mireia', 'Nogales','24' ,'37819203', '+54 11 0291-2390','Laguna 2783', 'Mireianogale@gmail.com');
 INSERT INTO persona VALUES ('', 'Myriam', 'Moreira', '65', '42857283', '+54 11 9821-2389','Zelada 8271', 'Myriamore@gmail.com');
 INSERT INTO persona VALUES ('', 'Ayman', 'Trigo','54' ,'39812738', '+54 11 1298-2389','Av Gaona 10582', 'Aymantrigo@gmail.com');
-
 INSERT INTO persona VALUES ('', 'Chloe', 'Olmo', '43', '41284912', '+54 11 2198-2398','Tandil 812', 'Chloeolmo@gmail.com');
 INSERT INTO persona VALUES ('', 'Martin', 'Gimenez','23' ,'32854915', '+54 11 2389-2198','Av Nazca 5215', 'Martingime@gmail.com');
 INSERT INTO persona VALUES ('', 'Jose', 'Gomez', '29', '37982485', '+54 11 1298-2398','Portela 8912', 'Josegome@gmail.com');
@@ -66,7 +62,6 @@ INSERT INTO persona VALUES ('', 'Lucas', 'Elmassian', '43', '23819209', '+54 11 
 INSERT INTO persona VALUES ('', 'Judith', 'Wu','18' ,'42812819', '+54 11 8912-2389','Yerbal 6097', 'judithwu@gmail.com');
 INSERT INTO persona VALUES ('', 'Josefina', 'Haro', '29', '39691820', '+54 11 2819-2389','Lautaro 8291', 'Josefinaharo@gmail.com');
 INSERT INTO persona VALUES ('', 'Javier', 'Quiles','54' ,'43019278', '+54 11 2378-2178','Thorne 512', 'Javiquiles@gmail.com');
-
 INSERT INTO persona VALUES ('', 'Bilal', 'Novo', '65', '34871890', '+54 11 3498-1289','Av Asamblea 5125', 'Bilalnovo@gmail.com');
 INSERT INTO persona VALUES ('', 'Eleuterio', 'Aliaga','43' ,'23890197', '+54 11 8734-2187','Tejedor 252', 'Eleutorioaliaga@gmail.com');
 INSERT INTO persona VALUES ('', 'Younes', 'Vazquez', '87', '32892987', '+54 11 1234-6754','Avellaneda 8924', 'Younesvazquez@gmail.com');
@@ -77,27 +72,56 @@ INSERT INTO persona VALUES ('', 'Jana', 'Sala', '72', '23819214', '+54 11 3928-1
 INSERT INTO persona VALUES ('', 'Xavi', 'Prada','62' ,'42019182', '+54 11 0912-8932','Av. Cobo 5125', 'Xavipradera@gmail.com');
 INSERT INTO persona VALUES ('', 'Sara', 'Corral', '34', '29102728', '+54 11 1298-3298','Av Caseros 5254', 'Saracorral@gmail.com');
 INSERT INTO persona VALUES ('', 'Claudia', 'Sanjuan','32' ,'38918274', '+54 11 2387-4278','Av. Cordoba 5282', 'Claudiasanju@gmail.com');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+INSERT INTO persona VALUES ('', 'Gioia', 'Villa','37', '42234564', '+54 11 5421-6541', 'Lopez de vega 2412', 'Gioia@gmail.com');
+INSERT INTO persona VALUES ('', 'Alarico', 'Núnez','40', '44584345', '+54 11 5543-6629', 'alvear 2412', 'Alarico3@gmail.com');
+INSERT INTO persona VALUES ('', 'Toli', 'Gómez','56', '23938934', '+54 11 5456-3211', 'union plurinacional de bolivia 2311', 'Toli@gmail.com');
+INSERT INTO persona VALUES ('', 'Benjamín', 'Di Stefano','39', '43243645', '+54 11 5412-2134', 'uruguay 5323', 'Benjamín@gmail.com');
+INSERT INTO persona VALUES ('', 'Marcos', 'Bregmann','35', '45235462', '+54 11 3124-5421', 'juan B. justo 4332', 'Marcos2@gmail.com');
+INSERT INTO persona VALUES ('', 'Nemesio', 'Lacroze','46', '34234567', '+54 11 1454-1213', 'judio 0', 'Nemesio@gmail.com');
+INSERT INTO persona VALUES ('', 'Alano', 'Acosta','46', '34234543', '+54 11 4154-5432', 'polonia 2312', 'Alano@gmail.com');
+INSERT INTO persona VALUES ('', 'Alfredo', 'Suárez','56', '54235456', '+54 11 5454-3214', 'kremlin 3423', 'Alfredo@gmail.com');
+INSERT INTO persona VALUES ('', 'Orlando', 'López','46', '43237345', '+54 11 3214-4561', 'senegal 2423', 'Orlando@gmail.com');
+INSERT INTO persona VALUES ('', 'Javiero', 'Falcone','34', '44345976', '+54 11 2545-6541', 'polotsk 2124', 'Javiero@gmail.com');
+INSERT INTO persona VALUES ('', 'Marcos', 'Mendez','72', '42157285', '+54 11 3214-5432', 'pedo 3120', 'Marcos@gmail.com');
+INSERT INTO persona VALUES ('', 'Cruz', 'Rodriguez','19', '41236612', '+54 11 4123-6451', 'persona 2142', 'Cruz@gmail.com');
+INSERT INTO persona VALUES ('', 'Gillermo', 'Villar','24', '40432333', '+54 11 2146-3214', 'cultorsa 3231', 'Gillermo@gmail.com');
+INSERT INTO persona VALUES ('', 'Ramon', 'Munoz','27', '33543555', '+54 11 3241-4785', 'parimbia 9533', 'Ramon@gmail.com');
+INSERT INTO persona VALUES ('', 'Rogelio', 'Álvarez','31', '32443225', '+54 11 2546-6542', 'peru 4534', 'Rogelio@gmail.com');
+INSERT INTO persona VALUES ('', 'Everardo', 'Romero','42', '31765456', '+54 11 4685-5245', 'lavallol 5434', 'Everardo@gmail.com');
+INSERT INTO persona VALUES ('', 'Leopoldo', 'Bullrich','52', '45345654', '+54 11 5465-5432', 'dr belaustegui 788', 'Leopoldo@gmail.com');
+INSERT INTO persona VALUES ('', 'Stefano', ' Domínguez','64', '40765456', '+54 11 1253-4654', 'berasategui 3231',  'Stefano@gmail.com');
+INSERT INTO persona VALUES ('', 'Frascuelo', 'Ferrari','43', '23983432', '+54 11 2134-3154', 'paro 5311', 'Frascuelo@gmail.com');
+INSERT INTO persona VALUES ('', 'Jerrold', 'Medina', '52','43594834', '+54 11 3214-5621', 'colombia 5345', 'Jerrold@gmail.com');
+INSERT INTO persona VALUES ('', 'Josias', 'Sánchez','100', '47394453', '+54 11 1234-6521', 'baigorria 1111', 'Josias@gmail.com');
+INSERT INTO persona VALUES ('', 'Curcio', 'Correa','53', '46142332', '+54 11 5464-5421', 'paraguay 7456', 'Curcio@gmail.com');
+INSERT INTO persona VALUES ('', 'Dacio', 'Marchesi','23', '43543345', '+54 11 2345-5432', 'nogoya 6345', 'Dacio@gmail.com');
+INSERT INTO persona VALUES ('', 'Clodoveo', 'Pisani','43', '42645222', '+54 11 1454-5462', 'empedrado 4500', 'Clodoveo@gmail.com');
+INSERT INTO persona VALUES ('', 'Alonzo', 'Narzecian','111', '43111111', '+54 11 3214-5432', 'lascano 6431', 'Alonzo@gmail.com');
+INSERT INTO persona VALUES ('', 'Matías', 'Toscano','456', '52234443', '+54 11 7851-5678', 'nazca 7932', 'Matías@gmail.com');
+INSERT INTO persona VALUES ('', 'Natalio', 'Fallaci','54', '43948576', '+54 11 7541-6512', 'cortazar 2343', 'Natalio@gmail.com');
+INSERT INTO persona VALUES ('', 'Simón', 'Napolitano','64', '42493857', '+54 11 2469-5487', 'culikitaka 1232', 'Simón@gmail.com');
+INSERT INTO persona VALUES ('', 'Fabián', 'Maldonado','344', '34001239', '+54 11 1458-8754', 'hokkaido 6345', 'Fabián@gmail.com');
+INSERT INTO persona VALUES ('', 'Casta', 'Hernández','654', '35348584', '+54 11 9845-6548', 'senshu 2412', 'Casta@gmail.com');
+INSERT INTO persona VALUES ('', 'Dario', 'Dominguez','7834', '36777888', '+54 11 1546-5487', 'cuarto 3242', 'Dario@gmail.com');
+INSERT INTO persona VALUES ('', 'Berto', 'Mansilla','64', '37948593', '+54 11 7895-2134', 'numero 2561', 'Berto@gmail.com');
+INSERT INTO persona VALUES ('', 'Alarico', 'Lopez','85', '381334455', '+54 11 1324-5464', 'publoica 5321', 'Alarico2@gmail.com');
+INSERT INTO persona VALUES ('', 'Alina', 'Davide','95', '39948594', '+54 11 7854-5462', 'Tuscana 5234', 'Alina@gmail.com');
+INSERT INTO persona VALUES ('', 'Neiva', 'Pisani','42', '279458456', '+54 11 8798-5464', 'plaza alvear 4325', 'Neiva@gmail.com');
+INSERT INTO persona VALUES ('', 'Veta', 'Udinesi','420', '23234543', '+54 11 6547-5678', 'marseilee 5363', 'Veta@gmail.com');
+INSERT INTO persona VALUES ('', 'Dalila', 'French','69', '34948567', '+54 11 5421-5645', 'plucarsia 6493', 'Dalila@gmail.com');
+INSERT INTO persona VALUES ('', 'Paulita', 'Varela','42069', '34948567', '+54 11 2415-6541', '´polorta 2354', 'Paulita@gmail.com');
+INSERT INTO persona VALUES ('', 'Gaspar', 'Bregmann','423', '43182736', '+54 11 4512-3546', 'lodaga 2325', 'Gaspar@gmail.com');
+INSERT INTO persona VALUES ('', 'Ramiro', 'Duarte','32', '5238475', '+54 11 1245-4541', 'tenosia 9643', 'Ramiro@gmail.com');
+INSERT INTO persona VALUES ('', 'Orlondo', 'Pinto','43', '34948301', '+54 11 5478-5432', 'multre 2412', 'Orlondo@gmail.com');
+INSERT INTO persona VALUES ('', 'Mio', 'Ponce','52', '21120233', '+54 11 5644-2134', 'jonia 2142', 'Mio@gmail.com');
+INSERT INTO persona VALUES ('', 'Salomon', 'Devia','63', '22102403', '+54 11 4564-5641', 'sajonia 5000', 'Salomon@gmail.com');
+INSERT INTO persona VALUES ('', 'Lalo', 'Arias','75', '23049345', '+54 11 4565-4564', 'llaverta 1534', 'Lalo@gmail.com');
+INSERT INTO persona VALUES ('', 'Dreena', 'Garcia', '24','25000001', '+54 11 5465-5462', 'kyiv 3253', 'Dreena@gmail.com');
+INSERT INTO persona VALUES ('', 'Josefina', 'Hernandez','343', '26000002', '+54 11 4565-2154', 'ñoqui 7296', 'Josefina@gmail.com');
+INSERT INTO persona VALUES ('', 'Janisa', 'Paz','35', '27999993', '+54 11 4512-4562', 'asuza 4000', 'Janisa@gmail.com');
+INSERT INTO persona VALUES ('', 'Analía', 'Cordero','52', '28984754', '+54 11 4561-2451', 'gigachad 8000', 'Analía@gmail.com');
+INSERT INTO persona VALUES ('', 'Carla', 'Alvarez','62', '12999234', '+54 11 9874-6541', 'carsa 3234', 'Carla@gmail.com');
+INSERT INTO persona VALUES ('', 'Silvio', 'Vera','41', '16123124', '+54 11 8718-4562 ', 'plimarca 2324', 'Silvio@gmail.com');
 INSERT INTO persona VALUES ('', 'Ana', 'Blanco','32' ,'38918375', '+54 11 2647-4278','Bolivia 546', 'Blancoana@gmail.com');
 INSERT INTO persona VALUES ('', 'Valentina', 'Mari','50' ,'30745274', '+54 11 2386-9978','Terrada 1259', 'Valenmari33@gmail.com');
 INSERT INTO persona VALUES ('', 'Viviana', 'Espejo','22' ,'40421276', '+54 11 2387-5888','Jonte 2008', 'Viviespejo04@gmail.com');
@@ -123,3 +147,44 @@ INSERT INTO persona VALUES ('', 'Yui', 'Hirasawa','30' ,'37451268', '+54 11 6221
 INSERT INTO persona VALUES ('', 'Azusa', 'Nakano','29' ,'38621147', '+54 11 1552-3622','Francisco Borges 2214', 'Azusanakano@gmail.com');
 INSERT INTO persona VALUES ('', 'Rita', 'Estefan','49' ,'21254486', '+54 11 4211-1555','Edison 1151', 'ritaestefan@gmail.com');
 INSERT INTO persona VALUES ('', 'Nahele', 'Moya','32' ,'34226531', '+54 11 6422-6612','Ayacucho 212', 'nahelecordobe@gmail.com');
+
+INSERT INTO Empleado VALUES ('', '1', '1', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '2', '1', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '3', '1', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '4', '1', 'Empleado', '10.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '5', '2', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '6', '2', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '7', '2', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '8', '2', 'Empleado', '10.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '9', '3', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '10', '3', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '11', '3', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '12', '3', 'Empleado', '10.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '13', '4', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '14', '4', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '15', '4', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '16', '4', 'Empleado', '10.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '17', '5', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '18', '5', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '19', '5', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '20', '5', 'Empleado', '10.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '21', '6', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '22', '6', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '23', '6', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '24', '6', 'Empleado', '10.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '25', '7', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '26', '7', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '27', '7', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '28', '7', 'Empleado', '10.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '29', '8', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '30', '8', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '31', '8', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '32', '8', 'Empleado', '10.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '33', '9', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '34', '9', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '35', '9', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '36', '9', 'Empleado', '10.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '37', '10', 'Supervisor', '100.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '38', '10', 'Admin_almacen', '80.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '39', '10', 'Gerente', '60.000', '10/10/2000');
+INSERT INTO Empleado VALUES ('', '40', '10', 'Empleado', '10.000', '10/10/2000');
