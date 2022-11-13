@@ -49,7 +49,6 @@ CREATE TABLE empleado (
 CREATE TABLE pedido (
     id_pedido INT NOT NULL AUTO_INCREMENT,
     id_persona INT NOT NULL,
-    valor FLOAT(10, 2) NOT NULL,
     estado VARCHAR(15) NOT NULL,
     fecha_pedido DATE NOT NULL,
     fecha_entrega DATE,
