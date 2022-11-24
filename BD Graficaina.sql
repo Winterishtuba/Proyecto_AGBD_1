@@ -104,22 +104,3 @@ CREATE TABLE detalle_deposito (
     FOREIGN KEY (id_deposito) REFERENCES deposito (id_deposito),
     FOREIGN KEY (id_producto) REFERENCES producto (id_producto)
 );
-
-CREATE TABLE pedido_interno (
-    id_pedido INT NOT NULL AUTO_INCREMENT,
-    costo FLOAT(10, 2) NOT NULL,
-    estado VARCHAR(15) NOT NULL,
-    fecha_pedido DATE NOT NULL,
-    fecha_entrega DATE,
-    PRIMARY KEY (id_pedido)
-);
-
-CREATE TABLE detalle_pedido_interno (
-    id_pedido_interno INT NOT NULL,
-    id_producto INT NOT NULL,
-    nombre VARCHAR(50) NOT NULL,
-    cantidad INT NOT NULL,
-    costo_unidad FLOAT(10, 2) NOT NULL,
-    PRIMARY KEY (id_pedido_interno, id_producto),
-    FOREIGN KEY (id_producto) REFERENCES producto (id_producto)
-);
