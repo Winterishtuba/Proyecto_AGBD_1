@@ -8,7 +8,6 @@ INSERT INTO sucursal VALUES ('USH-01', 'Ushuaia',  'V9410', 'Gdor. Deloqui 1163'
 INSERT INTO sucursal VALUES ('SSJ-01', 'San Salvador de Jujuy',  'Y4600', 'Gral. San Martín 1272', '+54 308 4902-7812');
 INSERT INTO sucursal VALUES ('MEN-01', 'Mendoza',  'M5500', 'Granaderos 2165', '+54 261 9428-6905');
 INSERT INTO sucursal VALUES ('ROS-01', 'Rosario.',  'S2000', 'Derqui 5957', '+54 341 7612-8954');
-
 INSERT INTO deposito VALUES ('D-CABA-01', 'CABA-01', 'Felipe Vallese 872', '+54 11 4589-6679');
 INSERT INTO deposito VALUES ('D-CABA-02', 'CABA-02', 'Nogoya 1054', '+54 11 8928-0196');
 INSERT INTO deposito VALUES ('D-CABA-03', 'CABA-03', 'Emilio mitre 1853', '+54 11 4902-7813');
@@ -19,7 +18,6 @@ INSERT INTO deposito VALUES ('D-USH-01', 'USH-01', 'Gdor. Deloqui 1163', '+54 29
 INSERT INTO deposito VALUES ('D-SSJ-01', 'SSJ-01', 'Gral. San Martín 1272', '+54 308 4902-7813');
 INSERT INTO deposito VALUES ('D-MEN-01', 'MEN-01', 'Granaderos 2165', '+54 261 9428-6906');
 INSERT INTO deposito VALUES ('D-ROS-01', 'ROS-01', 'Derqui 5957', '+54 341 7612-8955');
-
 INSERT INTO persona VALUES ('', 'Carlos', 'Menem', '90', '30241245', '1164893822','Balcarce 50', 'CarlosSaulMenemFerrari@gmail.com');
 INSERT INTO persona VALUES ('', 'Mauricio', 'Macri','63' ,'38898345', '1164884522','Av. Maipú 2100', 'MacriMaurigato@gmail.com');
 INSERT INTO persona VALUES ('', 'Arturo', 'Mateu', '54', '34312678', '+54 11 3782-5490','Av. independecia 1507', 'Arturmateu@gmail.com');
@@ -147,7 +145,6 @@ INSERT INTO persona VALUES ('', 'Yui', 'Hirasawa','30' ,'37451268', '+54 11 6221
 INSERT INTO persona VALUES ('', 'Azusa', 'Nakano','29' ,'38621147', '+54 11 1552-3622','Francisco Borges 2214', 'Azusanakano@gmail.com');
 INSERT INTO persona VALUES ('', 'Rita', 'Estefan','49' ,'21254486', '+54 11 4211-1555','Edison 1151', 'ritaestefan@gmail.com');
 INSERT INTO persona VALUES ('', 'Nahele', 'Moya','32' ,'34226531', '+54 11 6422-6612','Ayacucho 212', 'nahelecordobe@gmail.com');
-
 INSERT INTO Empleado VALUES ('', '1', 'CABA-01', 'Gerente', '60000', '2000-10-10','', '-');
 INSERT INTO Empleado VALUES ('', '2', 'CABA-01', 'Admin_almacen', '80000', '2000-10-10','', '-');
 INSERT INTO Empleado VALUES ('', '3', 'CABA-01', 'Supervisor', '100000', '2000-10-10','', '-');
@@ -188,7 +185,6 @@ INSERT INTO Empleado VALUES ('', '37', 'ROS-01', 'Supervisor', '100000', '2000-1
 INSERT INTO Empleado VALUES ('', '38', 'ROS-01', 'Admin_almacen', '80000', '2000-10-10','', '-');
 INSERT INTO Empleado VALUES ('', '39', 'ROS-01', 'Gerente', '60000', '2000-10-10','', '-');
 INSERT INTO Empleado VALUES ('', '40', 'ROS-01', 'Empleado', '10000', '2000-10-10','', '-');
-
 INSERT INTO proveedor VALUES ('Asus','Roger Cano');
 INSERT INTO proveedor VALUES ('Gigabyte','Susana Zhou');
 INSERT INTO proveedor VALUES ('Corsair','Glória Camara');
@@ -202,7 +198,6 @@ INSERT INTO proveedor VALUES ('Redragon','Victorina Parada');
 INSERT INTO proveedor VALUES ('Western-Digital','Younes Encinas');
 INSERT INTO proveedor VALUES ('AMD','Juan Cruz');
 INSERT INTO proveedor VALUES ('Intel','Chancho Manfredi');
-
 INSERT INTO producto VALUES ('1', 'Asus', 'Motherboard', 'Motherboard Asus Amoung sus B666 AM4 AMD ', '15999');
 INSERT INTO producto VALUES ('2', 'AMD', 'Procesador', 'Jewish 1944 Am4', '66900');
 INSERT INTO producto VALUES ('3', 'Logitech', 'Mouse', 'Mouse Logitech G669 Pro', '8600');
@@ -225,7 +220,6 @@ INSERT INTO producto VALUES ('19', 'Kingston', 'Disco-Rigido', 'Disco Rigido 666
 INSERT INTO producto VALUES ('20', 'Water-Cooler', 'Refrigeracion-Liquida', 'Water Cooler Refrigeracion CPU AHX1000 RGB', '46000');
 INSERT INTO producto VALUES ('21', 'Redragon', 'Auriculares', 'Auriculares Redragon No Escucho Los Pasos Gamer Edition', '12500');
 INSERT INTO producto VALUES ('22', 'Intel', 'Procesador', 'Procesador Informacion 6666k 3,66GHZ Last Generation ', '89010');
-
 INSERT INTO detalle_deposito VALUES ('D-CABA-01', '1', 'Motherboard Asus Amoung sus B666 AM4 AMD ', '7');
 INSERT INTO detalle_deposito VALUES ('D-CABA-01', '2', 'Jewish 1944 Am4', '4');
 INSERT INTO detalle_deposito VALUES ('D-CABA-01', '3', 'Mouse Logitech G669 Pro', '1');
@@ -424,7 +418,6 @@ INSERT INTO detalle_deposito VALUES ('D-MEN-01', '19', 'Disco Rigido 666GB Kings
 INSERT INTO detalle_deposito VALUES ('D-MEN-01', '20', 'Water Cooler Refrigeracion CPU AHX1000 RGB', '3');
 INSERT INTO detalle_deposito VALUES ('D-MEN-01', '21', 'Auriculares Redragon No Escucho Los Pasos Gamer Edition', '5');
 INSERT INTO detalle_deposito VALUES ('D-MEN-01', '22', 'Procesador Informacion 6666k 3,66GHZ Last Generation', '6');
-
 INSERT INTO detalle_deposito VALUES ('D-ROS-01', '1', 'Motherboard Asus Amoung sus B666 AM4 AMD ', '4');
 INSERT INTO detalle_deposito VALUES ('D-ROS-01', '2', 'Jewish 1944 Am4', '6');
 INSERT INTO detalle_deposito VALUES ('D-ROS-01', '3', 'Mouse Logitech G669 Pro', '9');
@@ -447,7 +440,6 @@ INSERT INTO detalle_deposito VALUES ('D-ROS-01', '19', 'Disco Rigido 666GB Kings
 INSERT INTO detalle_deposito VALUES ('D-ROS-01', '20', 'Water Cooler Refrigeracion CPU AHX1000 RGB', '6');
 INSERT INTO detalle_deposito VALUES ('D-ROS-01', '21', 'Auriculares Redragon No Escucho Los Pasos Gamer Edition', '5');
 INSERT INTO detalle_deposito VALUES ('D-ROS-01', '22', 'Procesador Informacion 6666k 3,66GHZ Last Generation', '3');
-
 INSERT INTO pedido VALUES ('', '1', 'Entregado', '2015-09-15', '2015-11-12');
 INSERT INTO detalle_pedido VALUES ('1', '1', 'Motherboard Asus Amoung sus B666 AM4 AMD', '10', '15999');
 INSERT INTO detalle_pedido VALUES ('1', '2', 'Jewish 1944 Am4', '10', '66900');
@@ -461,48 +453,37 @@ INSERT INTO detalle_pedido VALUES ('1', '10', 'Water Cooler Refrigeracion CPU KM
 INSERT INTO detalle_pedido VALUES ('1', '11', 'Auriculares Redragon Maicra Edition Pro', '10', '6700');
 INSERT INTO detalle_pedido VALUES ('1', '13', 'Mouse Redragon Storm Nashe RGB 8000 DPI', '10', '5199');
 INSERT INTO pago VALUES ('', '1', '1', '1910000', 'Transferencia', '2015-09-16');
-
 INSERT INTO pedido VALUES ('', '51', 'Entregado', '2015-09-20', '2015-09-23');
 INSERT INTO detalle_pedido VALUES ('2', '1', 'Motherboard Asus Amoung sus B666 AM4 AMD', '1', '15999');
 INSERT INTO detalle_pedido VALUES ('2', '2', 'Jewish 1944 Am4', '1', '66900');
 INSERT INTO pago VALUES ('', '2', '51', '83000', 'Transferencia', '2015-09-21');
-
 INSERT INTO pedido VALUES ('', '48', 'Entregado', '2015-09-23', '2015-09-28');
 INSERT INTO detalle_pedido VALUES ('3', '10', 'Water Cooler Refrigeracion CPU KMX777 White', '1', '34000');
 INSERT INTO pago VALUES ('', '3', '48', '34000', 'Transferencia', '2015-09-23');
-
 INSERT INTO pedido VALUES ('', '82', 'Entregado', '2015-09-24', '2015-09-28');
 INSERT INTO detalle_pedido VALUES ('4', '21', 'Auriculares Redragon No Escucho Los Pasos Gamer Edition', '1', '12500');
 INSERT INTO pago VALUES ('', '4', '82', '12500', 'Transferencia', '2015-09-26');
-
 INSERT INTO pedido VALUES ('', '35', 'Entregado', '2015-09-27', '2015-10-01');
 INSERT INTO detalle_pedido VALUES ('5', '6', 'Fuente Thermaltake Noburned 650W 80 Plus Bronze', '1', '16999');
 INSERT INTO pago VALUES ('', '5', '35', '17000', 'Transferencia', '2015-09-28');
-
 INSERT INTO pedido VALUES ('', '77', 'Cancelado', '2015-09-27', '');
 INSERT INTO detalle_pedido VALUES ('6', '1', 'Motherboard Asus Amoung sus B666 AM4 AMD', '1', '15999');
 INSERT INTO detalle_pedido VALUES ('6', '2', 'Jewish 1944 Am4', '1', '66900');
-
 INSERT INTO pedido VALUES ('', '100', 'Entregado', '2015-10-04', '2015-10-10');
 INSERT INTO detalle_pedido VALUES ('7', '15', 'Placa de video Asus Kupa GTX 7770 Guapisima Gaymer Edition', '1', '86990');
 INSERT INTO pago VALUES ('', '7', '100', '86990', 'Transferencia', '2015-10-05');
-
 INSERT INTO pedido VALUES ('', '66', 'Entregado', '2015-10-06', '2015-10-10');
 INSERT INTO detalle_pedido VALUES ('8', '7', 'Memoria Ram 8GB 3200MHZ Corsair', '2', '7600');
 INSERT INTO pago VALUES ('', '8', '66', '15200', 'Transferencia', '2015-10-06');
-
 INSERT INTO pedido VALUES ('', '75', 'Entregado', '2015-10-09', '2015-10-12');
 INSERT INTO detalle_pedido VALUES ('9', '14', 'Teclado Redragon Gigachad Switch Red 100% Mecanico', '5', '7810');
 INSERT INTO pago VALUES ('', '9', '75', '39100', 'Transferencia', '2015-10-10');
-
 INSERT INTO pedido VALUES ('', '111', 'Entregado', '2015-10-12', '2015-10-19');
 INSERT INTO detalle_pedido VALUES ('10', '4', 'Teclado Redragon Cumara Switch Red 80% Mecanico', '1', '9800');
 INSERT INTO pago VALUES ('', '10', '111', '9800', 'Transferencia', '2015-10-12');
-
 INSERT INTO pedido VALUES ('', '30', 'Entregado', '2015-10-14', '2015-10-19');
 INSERT INTO detalle_pedido VALUES ('11', '8', 'Cooler 12V Cooler-Master 8X8', '3', '890');
 INSERT INTO pago VALUES ('', '11', '30', '2670', 'Transferencia', '2015-10-15');
-
 INSERT INTO pedido VALUES ('', '72', 'Cancelado', '2015-10-15', '');
 INSERT INTO detalle_pedido VALUES ('12', '1', 'Motherboard Asus Amoung sus B666 AM4 AMD', '1', '15999');
 INSERT INTO detalle_pedido VALUES ('12', '2', 'Jewish 1944 Am4', '1', '66900');
@@ -515,35 +496,27 @@ INSERT INTO detalle_pedido VALUES ('12', '9', 'Disco Solido 250GB Western Digita
 INSERT INTO detalle_pedido VALUES ('12', '10', 'Water Cooler Refrigeracion CPU KMX777 White', '1', '34000');
 INSERT INTO detalle_pedido VALUES ('12', '11', 'Auriculares Redragon Maicra Edition Pro', '1', '6700');
 INSERT INTO detalle_pedido VALUES ('12', '13', 'Mouse Redragon Storm Nashe RGB 8000 DPI', '1', '5199');
-
 INSERT INTO pedido VALUES ('', '99', 'Entregado', '2015-10-16', '2015-10-20');
 INSERT INTO detalle_pedido VALUES ('13', '1', 'Motherboard Asus Amoung sus B666 AM4 AMD', '1', '15999');
 INSERT INTO pago VALUES ('', '13', '99', '16000', 'Transferencia', '2015-10-17');
-
 INSERT INTO pedido VALUES ('', '83', 'Entregado', '2015-10-18', '2015-10-24');
 INSERT INTO detalle_pedido VALUES ('14', '6', 'Fuente Thermaltake Noburned 650W 80 Plus Bronze', '1', '16999');
 INSERT INTO pago VALUES ('', '14', '83', '17000', 'Transferencia', '2015-10-19');
-
 INSERT INTO pedido VALUES ('', '70', 'Entregado', '2015-10-20', '2015-10-26');
 INSERT INTO detalle_pedido VALUES ('15', '8', 'Cooler 12V Cooler-Master 8X8', '2', '890');
 INSERT INTO pago VALUES ('', '15', '70', '1780', 'Transferencia', '2015-10-20');
-
 INSERT INTO pedido VALUES ('', '99', 'Entregado', '2015-10-22', '2015-10-26');
 INSERT INTO detalle_pedido VALUES ('16', '13', 'Mouse Redragon Storm Nashe RGB 8000 DPI', '1', '5199');
 INSERT INTO pago VALUES ('', '16', '99', '5200', 'Transferencia', '2015-10-23');
-
 INSERT INTO pedido VALUES ('', '87', 'Entregado', '2015-10-24', '2015-10-27');
 INSERT INTO detalle_pedido VALUES ('17', '13', 'Mouse Redragon Storm Nashe RGB 8000 DPI', '1', '5199');
 INSERT INTO pago VALUES ('', '17', '87', '5200', 'Transferencia', '2015-10-24');
-
 INSERT INTO pedido VALUES ('', '115', 'Entregado', '2015-10-26', '2015-10-28');
 INSERT INTO detalle_pedido VALUES ('18', '7', 'Memoria Ram 8GB 3200MHZ Corsair', '2', '7600');
 INSERT INTO pago VALUES ('', '18', '15', '15200', 'Transferencia', '2015-10-24');
-
 INSERT INTO pedido VALUES ('', '44', 'Cancelado', '2015-10-27', '');
 INSERT INTO detalle_pedido VALUES ('19', '1', 'Motherboard Asus Amoung sus B666 AM4 AMD', '1', '15999');
 INSERT INTO detalle_pedido VALUES ('19', '2', 'Jewish 1944 Am4', '1', '66900');
-
 INSERT INTO pedido VALUES ('', '55', 'Entregado', '2015-10-28', '2015-11-04');
 INSERT INTO detalle_pedido VALUES ('20', '10', 'Water Cooler Refrigeracion CPU KMX777 White', '2', '34000');
 INSERT INTO pago VALUES ('', '20', '55', '68000', 'Transferencia', '2015-10-29');
