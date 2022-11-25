@@ -12,7 +12,7 @@ END$$
 
 DELIMITER ;
 
-SELECT estado, fecha_pedido FROM pedido WHERE estado LIKE  'cancelado' AND DATE BETWEEN '2015-9-20' AND '2015-10-25';
+SELECT estado, fecha_pedido FROM pedido WHERE estado LIKE  'cancelado' AND fecha_pedido BETWEEN '2015-9-20' AND '2015-10-25';
 SELECT COUNT(Estado) AS cantidad FROM pedido Where Estado LIKE 'entregado' ;
 SELECT COUNT(id_empleado), puesto From empleado GROUP BY puesto;
 SELECT Direccion, ciudad FROM sucursal ORDER BY ciudad DESC;
