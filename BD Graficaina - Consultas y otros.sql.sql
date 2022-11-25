@@ -17,6 +17,6 @@ SELECT COUNT(Estado) AS cantidad FROM pedido Where Estado LIKE 'entregado' ;
 SELECT COUNT(id_empleado), puesto From empleado GROUP BY puesto;
 SELECT Direccion, ciudad FROM sucursal ORDER BY ciudad DESC;
 SELECT  Nombre, apellido FROM persona ORDER BY Id_persona ASC;	
-SELECT  COUNT(producto), tipo_producto FROM Producto GROUP BY tipo_producto;
+SELECT  COUNT(id_producto), gama FROM Producto GROUP BY gama;
 SELECT estado, fecha_entrega FROM pedido WHERE estado LIKE 'pendiente' AND fecha_entrega >= '2021-06-20';
 
