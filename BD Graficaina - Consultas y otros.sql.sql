@@ -16,7 +16,8 @@ SELECT estado, fecha_pedido FROM pedido WHERE estado LIKE  'cancelado' AND fecha
 SELECT COUNT(Estado) AS cantidad FROM pedido Where Estado LIKE 'entregado' ;
 SELECT COUNT(id_empleado), puesto From empleado GROUP BY puesto;
 SELECT Direccion, ciudad FROM sucursal ORDER BY ciudad DESC;
-SELECT  Nombre, apellido FROM persona ORDER BY Id_persona ASC;	
-SELECT  COUNT(id_producto), gama FROM Producto GROUP BY gama;
+SELECT Nombre, apellido FROM persona ORDER BY Id_persona ASC;	
+SELECT COUNT(id_producto), gama FROM Producto GROUP BY gama;
 SELECT estado, fecha_entrega FROM pedido WHERE estado LIKE 'pendiente' AND fecha_entrega >= '2021-06-20';
-
+SELECT * FROM Empleado WHERE puesto IN (SELECT puesto FROM empleado Where sueldo > 5000);
+SELECT Persona.ID_persona, pedido.ID_Pedido FROM persona INNER JOIN pedido ON Persona.ID_persona = pedido.ID_Pedido;
