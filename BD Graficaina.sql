@@ -6,18 +6,18 @@ CREATE TABLE persona (
     id_persona INT NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(30) NOT NULL,
     apellido VARCHAR(30) NOT NULL,
-    edad INT NOT NULL,
+    edad INT,
     dni INT NOT NULL,
     telefono INT NOT NULL,
     direccion VARCHAR(50) NOT NULL,
-    email VARCHAR(50) NOT NULL,
+    email VARCHAR(50),
     PRIMARY KEY (id_persona)
 );
 
 CREATE TABLE sucursal (
     id_sucursal VARCHAR(30) NOT NULL,
     ciudad VARCHAR(30) NOT NULL,
-    codigo_postal VARCHAR(10) NOT NULL,
+    codigo_postal VARCHAR(10),
     direccion VARCHAR(30) NOT NULL,
     telefono VARCHAR(20) NOT NULL,
     PRIMARY KEY (id_sucursal)
@@ -27,7 +27,7 @@ CREATE TABLE deposito (
     id_deposito VARCHAR(30) NOT NULL,
     id_sucursal VARCHAR(30) NOT NULL,
     direccion VARCHAR(30) NOT NULL,
-    telefono VARCHAR(20) NOT NULL,
+    telefono VARCHAR(20),
     PRIMARY KEY (id_deposito),
     FOREIGN KEY (id_sucursal) REFERENCES sucursal (id_sucursal)
 );
@@ -35,7 +35,7 @@ CREATE TABLE deposito (
 CREATE TABLE empleado (
     id_empleado INT NOT NULL AUTO_INCREMENT,
     id_persona INT NOT NULL,
-    id_sucursal VARCHAR(30) NOT NULL,
+    id_sucursal VARCHAR(30),
     puesto VARCHAR(50),
     sueldo FLOAT(10, 2) NOT NULL,
     fecha_ingreso DATE NOT NULL,
@@ -48,8 +48,8 @@ CREATE TABLE empleado (
 
 CREATE TABLE pedido (
     id_pedido INT NOT NULL AUTO_INCREMENT,
-    id_persona INT NOT NULL,
-    estado VARCHAR(15) NOT NULL,
+    id_persona INT,
+    estado VARCHAR(15),
     fecha_pedido DATE NOT NULL,
     fecha_entrega DATE,
     PRIMARY KEY (id_pedido),
@@ -61,7 +61,7 @@ CREATE TABLE pago (
     id_pedido INT NOT NULL,
     id_persona INT NOT NULL,
     suma FLOAT(10, 2) NOT NULL,
-    metodo VARCHAR(30) NOT NULL,
+    metodo VARCHAR(30),
     fecha_pago DATE NOT NULL,
     PRIMARY KEY (id_pago),
     FOREIGN KEY (id_pedido) REFERENCES pedido (id_pedido),
@@ -70,14 +70,14 @@ CREATE TABLE pago (
 
 CREATE TABLE proveedor (
     id_proveedor VARCHAR(30) NOT NULL,
-    nombre VARCHAR(30) NOT NULL,
+    nombre VARCHAR(30),
     PRIMARY KEY (id_proveedor)
 );
 
 CREATE TABLE producto (
     id_producto INT NOT NULL,
     id_proveedor VARCHAR(30) NOT NULL,
-    gama TEXT NOT NULL,
+    gama TEXT,
     nombre VARCHAR(50) NOT NULL,
     precio_unidad FLOAT(10, 2) NOT NULL,
     PRIMARY KEY (id_producto),
@@ -87,7 +87,7 @@ CREATE TABLE producto (
 CREATE TABLE detalle_pedido (
     id_pedido INT NOT NULL,
     id_producto INT NOT NULL,
-    nombre VARCHAR(50) NOT NULL,
+    nombre VARCHAR(50),
     cantidad INT NOT NULL,
     precio_unidad FLOAT(10, 2) NOT NULL,
     PRIMARY KEY (id_pedido, id_producto),
@@ -98,7 +98,7 @@ CREATE TABLE detalle_pedido (
 CREATE TABLE detalle_deposito (
     id_deposito VARCHAR(30) NOT NULL,
     id_producto INT NOT NULL,
-    nombre VARCHAR(50) NOT NULL,
+    nombre VARCHAR(50),
     cantidad INT NOT NULL,
     PRIMARY KEY (id_deposito, id_producto),
     FOREIGN KEY (id_deposito) REFERENCES deposito (id_deposito),
