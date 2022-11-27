@@ -6,7 +6,7 @@ CREATE TABLE persona (
     id_persona INT NOT NULL AUTO_INCREMENT,
     nombre VARCHAR(30) NOT NULL,
     apellido VARCHAR(30) NOT NULL,
-    edad INT,
+    edad INT,	
     dni INT NOT NULL,
     telefono INT NOT NULL,
     direccion VARCHAR(50) NOT NULL,
@@ -103,4 +103,17 @@ CREATE TABLE detalle_deposito (
     PRIMARY KEY (id_deposito, id_producto),
     FOREIGN KEY (id_deposito) REFERENCES deposito (id_deposito),
     FOREIGN KEY (id_producto) REFERENCES producto (id_producto)
+);
+
+
+CREATE TABLE Backup (
+    id_backup INT NOT NULL ,
+    nombre_backup VARCHAR(30) NOT NULL,
+    apellido_backup VARCHAR(30) NOT NULL,
+    edad_backup INT,
+    dni_backup INT NOT NULL,
+    telefono_backup INT NOT NULL,
+    direccion_backup VARCHAR(50) NOT NULL,
+    email_backup VARCHAR(50),
+    PRIMARY KEY (id_backup)
 );
