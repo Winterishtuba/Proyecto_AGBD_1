@@ -42,3 +42,9 @@ SELECT estado, fecha_entrega FROM pedido WHERE estado LIKE 'pendiente' AND fecha
 SELECT * FROM Empleado WHERE puesto IN (SELECT puesto FROM empleado Where sueldo > 5000);
 SELECT Persona.ID_persona, pedido.ID_Pedido FROM persona INNER JOIN pedido ON Persona.ID_persona = pedido.ID_Pedido;
 
+
+create user 'dueño'@'localhost' identified by 'graficaina123';
+
+GRANT ALL PRIVILEGES on graficaina.* to  'dueño'@'localhost'
+
+show grants for  'dueño'@'localhost'
